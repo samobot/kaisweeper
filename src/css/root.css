@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+	height: 320px;
+	width: 240px;
+}
+
+html,
+body {
+	background-color: grey;
+	margin: 0px;
+}
+
+#root {
+	text-align: center;
+	background-color: #261C15;
+}

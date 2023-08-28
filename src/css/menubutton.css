@@ -1,0 +1,18 @@
+.menubutton {
+	background-color: #C5D86D;
+	color: #261C15;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 5%;
+	border: none;
+	border-radius: 5px;
+}
+
+.menubutton:focus,
+.menubutton:hover {
+	color: #F7F7F2;
+}
+
+.menubutton > p {
+	margin: 6px;
+}

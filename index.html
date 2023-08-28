@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>Main Menu</title>
+
+		<script src="lib/jquery-3.6.0.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="src/css/root.css"/>
+		<link rel="stylesheet" type="text/css" href="src/css/titletext.css"/>
+		<link rel="stylesheet" type="text/css" href="src/css/menubutton.css"/>
+		<link rel="stylesheet" type="text/css" href="src/css/parambox.css"/>
+	</head>
+
+	<body>
+		<div id="root">
+			<h1 class="titletext">KaiSweeper</h1>
+			<div><button class="menubutton nav" id="default-start" tabindex="0" onclick="startDefaultGame()"><p>Start Default</p></button></div>
+			<div><input class="parambox nav" id="widthbox" tabindex="1" type="number" placeholder="Width"></div>
+			<div><input class="parambox nav" id="heightbox" tabindex="2" type="number" placeholder="Height"></div>
+			<div><input class="parambox nav" id="minesbox" tabindex="3" type="number" placeholder="Mines"></div>
+			<div><button class="menubutton nav" id="custom-start" tabindex="4" onclick="startCustomGame()"><p>Start Custom</p></button></div>
+		</div>
+		<script src="src/js/index.js"></script>
+	</body>
+
+</html>
